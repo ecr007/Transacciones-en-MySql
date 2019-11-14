@@ -1,1 +1,7 @@
 # Transacciones-en-MySql
+
+```sql
+START TRANSACTION;
+DELETE FROM table where code in('1A0190EA92','01E9062E425','10E190827')
+ROLLBACK;
+COMMIT;
